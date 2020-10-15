@@ -6,7 +6,7 @@ import { string } from 'yup';
 import Orphanage from '../models/Orphanage';
 
 import orphanageView from '../views/orphanages_view';
-
+//workshop 4  1:28
 export default {
     async index(req: Request,res: Response){
         const orphanagesRepository = getRepository(Orphanage)
